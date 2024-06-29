@@ -1,2 +1,8 @@
 # ID-Card-Information-Extraction-from-Video-Frames
-This project uses OpenCV and Tesseract OCR to extract ID card information (name, date of birth, contact details) from specific video frames. It processes frame ranges, identifies common text, and parses it for relevant details, with visual validation via Matplotlib. This approach is ideal for automated identity verification and data entry.
+This project focuses on extracting ID card information such as name, date of birth, and contact details from specific frame ranges of a video file. It utilizes OpenCV for video frame processing and Tesseract OCR for text recognition. The extracted information can be crucial for applications like automated identity verification and data entry automation.
+
+**Features**
+1. Video Processing: Extracts text from defined frame ranges of a video file.
+2. Text Extraction: Uses Tesseract OCR to recognize text from video frames.
+3. Information Parsing: Identifies and parses common text to extract details like name, date of birth, and contact information.
+4. Visualization: Utilizes Matplotlib to display processed frames for visual validation.
